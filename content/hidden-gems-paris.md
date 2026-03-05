@@ -11,11 +11,15 @@ I spent most of my morning wandering away from the main thoroughfares, guided on
 
 > "To wander is to be alive. To get lost in Paris is to find oneself."
 
+![Charming street in Le Marais]({static}/images/paris-vibe.png)
+
 ## A Courtyard Secret
 
 I stumbled upon a small courtyard tucked behind a heavy wooden door. Inside, three small tables were set with iron chairs. No menu was visible, and the only person there was an elderly man reading a worn paperback.
 
 He nodded as I sat down, and without a word, brought out a small carafe of coffee and a croissant so flaky it shattered at the slightest touch. It was, without a doubt, the most peaceful hour I've had on this entire trip.
+
+![Parisian Cafe Courtyard]({static}/images/marais_cafe.png)
 
 ## Morning Reflections
 

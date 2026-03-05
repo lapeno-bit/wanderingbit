@@ -267,6 +267,15 @@ blockquote {
     color: var(--accent-primary);
 }
 
+.post-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: var(--spacing-md) auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {
