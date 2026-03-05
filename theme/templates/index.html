@@ -20,7 +20,7 @@
                 <a href="{{ SITEURL }}/{{ article.url }}" class="post-card glass animate-fade-in"
                     style="animation-delay: {{ loop.index0 * 0.1 }}s;">
                     <div class="post-image" {% if article.image %}
-                        style="background-color: {{ article.image_bg|default('#d8e2dc') }}; background-image: url('{{ SITEURL }}/theme/assets/{{ article.image }}');"
+                        style="background-color: {{ article.image_bg|default('#d8e2dc') }}; background-image: url('{{ SITEURL }}/images/{{ article.image }}');"
                         {% endif %}></div>
                     <div class="post-card-content">
                         <span class="post-date">{{ article.locale_date }} {% if article.location %}• {{ article.location

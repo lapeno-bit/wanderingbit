@@ -4,5 +4,6 @@ Category: Journal
 Location: Lisbon, Portugal
 Image: lisbon-sunset.png
 Image_bg: #ffe5d9
+Summary: Watching the gold light hit the red roofs as the city slowly wakes to the sound of Fado.
 
 Watching the gold light hit the red roofs as the city slowly wakes to the sound of Fado.

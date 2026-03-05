@@ -4,5 +4,6 @@ Category: Journal
 Location: Rome, Italy
 Image: rome-morning.png
 Image_bg: #fce1e4
+Summary: The best espresso is found in the smallest shops. Lessons learned from three days in Rome.
 
 The best espresso is found in the smallest shops. Lessons learned from three days in Rome.
