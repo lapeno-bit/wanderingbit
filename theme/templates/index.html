@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="hero section">
+    <div class="container">
+        <h1 class="animate-fade-in">A European <span style="color: var(--accent-primary);">Diary</span>.</h1>
+        <p class="animate-fade-in" style="animation-delay: 0.2s;">Capturing the moments, flavors, and stories of a
+            slow journey through the old continent.</p>
+    </div>
+</header>
+
+<main class="section">
+    <div class="container">
+        <h2 style="margin-bottom: var(--spacing-md); text-align: center;">Recent <span
+                style="font-style: italic;">Entries</span></h2>
+
+        <div class="post-grid">
+            {% for article in articles %}
+            <article>
+                <a href="{{ SITEURL }}/{{ article.url }}" class="post-card glass animate-fade-in"
+                    style="animation-delay: {{ loop.index0 * 0.1 }}s;">
+                    <div class="post-image" {% if article.image %}
+                        style="background-color: {{ article.image_bg|default('#d8e2dc') }}; background-image: url('{{ SITEURL }}/theme/assets/{{ article.image }}');"
+                        {% endif %}></div>
+                    <div class="post-card-content">
+                        <span class="post-date">{{ article.locale_date }} {% if article.location %}• {{ article.location
+                            }}{% endif %}</span>
+                        <h3>{{ article.title }}</h3>
+                        <p>{{ article.summary }}</p>
+                        <span style="color: var(--accent-primary); font-weight: 600; font-size: 0.9rem;">Read Entry
+                            &rrarr;</span>
+                    </div>
+                </a>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</main>
+{% endblock %}

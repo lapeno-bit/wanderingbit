@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<article class="section animate-fade-in">
+    <div class="container">
+        <header class="post-header">
+            <span class="post-date">{{ article.locale_date }} {% if article.location %}• {{ article.location }}{% endif
+                %}</span>
+            <h1 style="margin-top: 1rem;">{{ article.title }}</h1>
+        </header>
+
+        <div class="post-body">
+            {{ article.content }}
+        </div>
+
+        <div style="text-align: center; margin-top: var(--spacing-xl);">
+            <a href="{{ SITEURL }}/" class="btn">&larr; Back to the Diary</a>
+        </div>
+    </div>
+</article>
+{% endblock %}

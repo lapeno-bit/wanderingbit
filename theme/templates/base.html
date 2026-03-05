@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/styles.css">
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <nav class="glass">
+        <div class="container">
+            <a href="{{ SITEURL }}/" class="logo">WanderingBit</a>
+            <div class="nav-links">
+                <a href="{{ SITEURL }}/">The Diary</a>
+                <a href="#">The Journey</a>
+                <a href="#">About Me</a>
+            </div>
+        </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 WanderingBit. A European Travel Diary.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
